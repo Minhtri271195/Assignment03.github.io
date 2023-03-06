@@ -1,0 +1,38 @@
+@media only screen and (max-width: 768px) {
+  /* Reponsive cho thanh Nav bar */
+  #nav-bar .container img,
+  .nametag-nav-bar {
+    display: none;
+  }
+  #nav-bar .container {
+    grid-template-columns: 180px 180px 1fr 180px 180px;
+  }
+
+  /* Reponsive cho phần Thông tin cá nhân */
+  #about .container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Reponsive cho phần Thông tin nghề nghiệp */
+  #job-info .container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Reponsive cho phần Chứng chỉ giải thưởng */
+  #certificate .sub-container .sub-certificate {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /* Reponsive cho phần Dự án */
+  #project .container .sub-container {
+    grid-template-columns: 230px 230px 230px;
+    gap: 20px;
+  }
+
+  #project .container .sub-container img {
+    width: 230px;
+  }
+  /* Reponsive cho phần Footer 
+   (hình như bản thân Footer đã tự căn chỉnh)*/
+}

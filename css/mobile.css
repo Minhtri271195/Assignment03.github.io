@@ -1,0 +1,72 @@
+@media only screen and (max-width: 480px) {
+  #nav-bar .container {
+    display: block;
+    text-align: start;
+  }
+  #nav-bar .container a {
+    display: block;
+  }
+  #nav-bar .container a span {
+    width: 100%;
+  }
+
+  /* Reponsive cho phần Thông tin cá nhân */
+  #about .container {
+    /* width: 400px; */
+    justify-content: start;
+    grid-template: 1fr / 1fr;
+  }
+
+  /* Reponsive cho phần Thông tin nghề nghiệp */
+  #job-info .container {
+    width: 100%;
+    grid-template: 1fr / 1fr;
+    /* grid-template-columns: 1fr; */
+  }
+  #job-info .container .job-index .title-info {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  #job-info .container .job-index .sub-title-info-hobby {
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+  }
+
+  /* Reponsive cho phần Chứng chỉ giải thưởng */
+
+  #certificate .sub-container {
+    grid-template-columns: 1fr;
+  }
+
+  #certificate .sub-container .sub-certificate:first-child {
+    border-left: 1px solid #d6c08d;
+    padding-left: 20px;
+  }
+
+  #certificate .sub-container .sub-certificate:nth-child(3) {
+    border-bottom: 1px solid #d6c08d;
+    border-left: 1px solid #d6c08d;
+    padding-left: 20px;
+  }
+  /* Reponsive cho phần Dự án */
+  #project .container .sub-container {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  #project .container .sub-container .project-index {
+    width: 420px;
+  }
+
+  #project .container .sub-container .project-index img {
+    width: 420px;
+  }
+
+  #project .container .sub-container .project-index .info-project {
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+  }
+  /* Reponsive cho phần Footer 
+  (hình như bản thân Footer đã tự căn chỉnh)*/
+}
